@@ -1,0 +1,40 @@
+{
+  "name": "cucumber-nodejs-demo",
+  "version": "1.0.1",
+  "description": "Cucumber Demo",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senips/cucumber-nodejs-demo.git"
+  },
+  "keywords": [
+    "automation",
+    "cucumber",
+    "jasmine",
+    "mocha"
+  ],
+  "author": "Senthil Maruthaiappan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senips/cucumber-nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/senips/cucumber-nodejs-demo#readme",
+  "dependencies": {
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "selenium-webdriver": "^2.46.1",
+    "cucumber": "^0.5.3",
+    "bump-cli": "^1.1.3",
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.19",
+    "mocha": "^2.3.2",
+    "phantomjs": "^1.9.18"
+  }
+}
